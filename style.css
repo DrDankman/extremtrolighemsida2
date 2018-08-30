@@ -1,0 +1,21 @@
+body {
+	background-color: yellow;
+	padding-top: 4%;
+	padding-left: 4%;
+	animation-name: färgbyte;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+@keyframes färgbyte {
+	0% {background-color: blue;}
+	10%{background-color: #ea1ed2;}
+	20%{background-color: #e0d233;}
+	30%{background-color: #16e250;}
+	40%{background-color: #1d4bc1;}
+	50%{background-color: #2ad37e;}
+	60%{background-color: #0bdd35;}
+	70%{background-color: #ba1287;}
+	80%{background-color: #bc5105;}
+	90%{background-color: #990c13;}	
+	100%{background-color: blue}
+}
